@@ -10,4 +10,4 @@ def test_check(browser):
     btn = browser.find_element(By.CSS_SELECTOR, ".btn-add-to-basket")
     assert btn, 'Cелектор кнопки не найден'
     print(btn)
-    time.sleep(30)
+    #time.sleep(30)
